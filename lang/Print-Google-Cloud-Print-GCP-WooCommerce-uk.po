@@ -1,0 +1,667 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Print Google Cloud Print GCP WooCommerce\n"
+"POT-Creation-Date: 2018-11-28 19:02+0200\n"
+"PO-Revision-Date: 2018-11-29 16:37+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/Aspect/Input.php:317
+msgid "Upload"
+msgstr "Завантажити"
+
+#: includes/Aspect/Input.php:319
+msgid "Remove"
+msgstr "Видалити"
+
+#: includes/Model/Location.php:252
+msgid "A4"
+msgstr "A4"
+
+#: includes/Model/Location.php:253
+msgid "Letter"
+msgstr "Лист"
+
+#: includes/Model/Location.php:254
+msgid "Custom"
+msgstr "Користувацький"
+
+#: includes/Model/Location.php:261 templates/details-plain.php:6
+msgid "Order Receipt"
+msgstr "Квитанція замовлення"
+
+#: includes/Model/Location.php:262
+msgid "Customer Receipt"
+msgstr "Клієнтська квитанція"
+
+#: includes/Model/Location.php:263
+msgid "Customer Order Receipt"
+msgstr "Клієнтська квитанція замовлення"
+
+#: includes/Model/Location.php:272
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/Model/Location.php:273
+msgid "Plain Text"
+msgstr "Звичайний текст"
+
+#: includes/Model/Location.php:280
+msgid "Portrait"
+msgstr "Портретний"
+
+#: includes/Model/Location.php:281
+msgid "Landscape"
+msgstr "Ландшафтний"
+
+#: includes/Model/Location.php:282 setting/locations.php:715
+#: setting/locations.php:717
+msgid "Auto"
+msgstr "Авто"
+
+#: includes/Setup.php:24
+msgid "Print Google Cloud Print GCP WooCommerce require WooCommerce"
+msgstr "Print Google Cloud Print GCP WooCommerce вимагає WooCommerce"
+
+#: setting/general.php:11
+msgid "General"
+msgstr "Загальні"
+
+#: setting/general.php:16
+msgid "Automatic Order Printing"
+msgstr "Автоматичний друк замовлень"
+
+#: setting/general.php:21
+msgid "Enable Automatic Printing"
+msgstr "Увімкнення автоматичного друку"
+
+#: setting/general.php:27
+msgid "Web Orders"
+msgstr "Веб замовлення"
+
+#: setting/general.php:28
+msgid "POS Orders"
+msgstr "POS замовлення"
+
+#: setting/general.php:29
+msgid "POS Orders Save"
+msgstr "Збереження POS-замовлень"
+
+#: setting/general.php:32 setting/general.php:102 setting/locations.php:230
+#: setting/locations.php:239
+msgid "Enable"
+msgstr "Увімкнути"
+
+#: setting/general.php:38
+msgid "Web Orders Automatic Print Statuses"
+msgstr "Стани автоматичного друку для веб-замовлень"
+
+#: setting/general.php:40
+msgid "Orders Automatic Print Statuses"
+msgstr "Автоматичні статуси друку замовлень"
+
+#: setting/general.php:45
+msgid "Pending Payment"
+msgstr "Очікується платіж"
+
+#: setting/general.php:46
+msgid "Processing"
+msgstr "В обробці"
+
+#: setting/general.php:53
+msgid "Copies"
+msgstr "Копії"
+
+#: setting/general.php:61
+msgid "Optimization"
+msgstr "Оптимізації"
+
+#: setting/general.php:63
+msgid "Hosting Providers May Block Background Printing"
+msgstr "Хостинг-провайдери можуть блокувати фоновий друк"
+
+#: setting/general.php:64
+msgid "Print Optimization"
+msgstr "Оптимізація друку"
+
+#: setting/general.php:67 setting/general.php:100
+msgid "Background Printing"
+msgstr "Фоновий друк"
+
+#: setting/general.php:80 setting/locations.php:653
+msgid "Enabled"
+msgstr "Увімкнути"
+
+#: setting/general.php:91
+msgid ""
+"Sorry, Background printing test failed. Contact hosting provider or submit a "
+"plug-in support request."
+msgstr ""
+"Вибачте, тест фонового друк не вдався. Зверніться до хостинг-провайдера або "
+"надішліть запит на підтримку плагіна."
+
+#: setting/general.php:99
+msgid "Activation takes few seconds"
+msgstr "Активація триває кілька секунд"
+
+#: setting/general.php:118
+msgid "Appearance"
+msgstr "Вигляд"
+
+#: setting/general.php:123
+msgid "Logo"
+msgstr "Логотип"
+
+#: setting/general.php:128
+msgid "Check Header"
+msgstr "Заголовок квитанції"
+
+#: setting/general.php:131
+msgid "Company Name"
+msgstr "Назва компанії"
+
+#: setting/general.php:134
+msgid "Company Info"
+msgstr "Інформація Про Компанію"
+
+#: setting/general.php:137
+msgid "Order Details Header"
+msgstr "Заголовок відомостей про замовлення"
+
+#: setting/general.php:140
+msgid "Footer Information #1"
+msgstr "Відомості про колонтитули #1"
+
+#: setting/general.php:143
+msgid "Footer Information #2"
+msgstr "Відомості про колонтитули #2"
+
+#: setting/general.php:148
+msgid "Customer Order Receipt & Customer Receipt Template"
+msgstr "Шаблон клієнтських квитанцій"
+
+#: setting/general.php:159
+msgid "Order Header"
+msgstr "Заголовок квитанції"
+
+#: setting/general.php:164
+msgid "Order Print Template"
+msgstr "Шаблон квитанції замовлення"
+
+#: setting/index.php:13
+msgid "Print Settings"
+msgstr "Параметри друку"
+
+#: setting/locations.php:14
+msgid "Locations"
+msgstr "Розташування"
+
+#: setting/locations.php:45
+msgid "Location deleted"
+msgstr "Розташування видалено"
+
+#: setting/locations.php:59
+msgid "Location saved"
+msgstr "Розташування збережено"
+
+#: setting/locations.php:72
+msgid "Test print initiated, view log for details"
+msgstr "Пробний друк розпочато, перегляньте лог-журнал для подробиці"
+
+#: setting/locations.php:84
+msgid "Add new"
+msgstr "Додати"
+
+#: setting/locations.php:207
+msgid "Location title"
+msgstr "Назва розташування"
+
+#: setting/locations.php:216
+msgid "Test print"
+msgstr "Пробний друк"
+
+#: setting/locations.php:220
+msgid "View Sample"
+msgstr "Переглянути зразок"
+
+#: setting/locations.php:226
+msgid "Web order printer"
+msgstr "Друк Веб-замовлень"
+
+#: setting/locations.php:235
+msgid "POS order printer"
+msgstr "Друк POS-замовлень"
+
+#: setting/locations.php:246 setting/locations.php:662
+msgid "Printers"
+msgstr "Принтери"
+
+#: setting/locations.php:257 setting/locations.php:665
+msgid "Users"
+msgstr "Користувачі"
+
+#: setting/locations.php:269 setting/locations.php:668
+msgid "Template"
+msgstr "Шаблон"
+
+#: setting/locations.php:271
+msgid "Need Custom Templates?"
+msgstr "Потрібні користувацькі шаблони?"
+
+#: setting/locations.php:273
+msgid "Buy"
+msgstr "Придбати"
+
+#: setting/locations.php:278
+msgid "Select Template"
+msgstr "Вибрати шаблон"
+
+#: setting/locations.php:286
+msgid "Include Shipping Cost"
+msgstr "Включити вартість доставки"
+
+#: setting/locations.php:293
+msgid "Include Billing & Shipping Details"
+msgstr "Включити подробиці оплати і доставки"
+
+#: setting/locations.php:300
+msgid "Include Customer Details"
+msgstr "Включити відомості про клієнта"
+
+#: setting/locations.php:307
+msgid "Include Shipping Method"
+msgstr "Включити метод доставки"
+
+#: setting/locations.php:314
+msgid "Developer Documentation"
+msgstr "Документація розробника"
+
+#: setting/locations.php:321 setting/setting/index.php:10
+msgid "Settings"
+msgstr "Налаштування"
+
+#: setting/locations.php:325
+msgid "Page Orientation"
+msgstr "Орієнтація сторінки"
+
+#: setting/locations.php:329
+msgid "Select Orientation"
+msgstr "Вибрати орієнтацію"
+
+#: setting/locations.php:344
+msgid "Output Format"
+msgstr "Формат виводу"
+
+#: setting/locations.php:348
+msgid "Select Format"
+msgstr "Виберіть формат"
+
+#: setting/locations.php:359
+msgid "Plain text format symbols width"
+msgstr "Ширина символів у форматі звичайного тексту"
+
+#: setting/locations.php:367
+msgid "Print symbols for layout debug"
+msgstr "Друкувати символи для налагодження макета"
+
+#: setting/locations.php:376
+msgid "Basic Font Size (px)"
+msgstr "Стандартний розмір шрифта (пікс.)"
+
+#: setting/locations.php:383
+msgid "Header Font Size (px)"
+msgstr "Розмір шрифту заголовка (пікс.)"
+
+#: setting/locations.php:390
+msgid "Basic Font Weight (CSS value)"
+msgstr "Базова вага шрифту (значення CSS)"
+
+#: setting/locations.php:397
+msgid "Header Font Weight (CSS value)"
+msgstr "Вага шрифту заголовку (значення CSS)"
+
+#: setting/locations.php:408
+msgid "Custom Margins"
+msgstr "Настроювані поля"
+
+#: setting/locations.php:415
+msgid "Layout Margins"
+msgstr "Поля макета"
+
+#: setting/locations.php:419
+msgid "Top Margin"
+msgstr "Верхнє поле"
+
+#: setting/locations.php:422 setting/locations.php:427
+#: setting/locations.php:432 setting/locations.php:437
+#: setting/locations.php:713 setting/locations.php:715
+msgid "mm"
+msgstr "мм"
+
+#: setting/locations.php:424
+msgid "Right Margin"
+msgstr "Праве полі"
+
+#: setting/locations.php:429
+msgid "Bottom Margin"
+msgstr "Нижнє поле"
+
+#: setting/locations.php:434
+msgid "Left Margin"
+msgstr "Ліве поле"
+
+#: setting/locations.php:445
+msgid "Layout Size"
+msgstr "Розмір макету"
+
+#: setting/locations.php:449
+msgid "Select Size"
+msgstr "Виберіть розмір"
+
+#: setting/locations.php:464
+msgid "Custom Width (mm)"
+msgstr "Настроювана ширина (мм)"
+
+#: setting/locations.php:467
+msgid "Note: use 0mm for automatic width (based on printer setting)"
+msgstr ""
+"Примітка: використовуйте 0 мм для автоматичної ширини (на основі параметрів "
+"принтера)"
+
+#: setting/locations.php:473
+msgid "Custom Height (mm)"
+msgstr "Настроювана висота (мм)"
+
+#: setting/locations.php:476
+msgid ""
+"Note: use 0mm for continuous feed (some printers may not support this "
+"function)"
+msgstr ""
+"Примітка: використовуйте 0 мм для безперервної подачі (деякі принтери можуть "
+"не підтримувати цю функцію)"
+
+#: setting/locations.php:557
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+#: setting/locations.php:564
+msgid "Delete"
+msgstr "Видалити"
+
+#: setting/locations.php:645
+msgid "Title"
+msgstr "Назва"
+
+#: setting/locations.php:649
+msgid "Web Order"
+msgstr "Веб замовлення"
+
+#: setting/locations.php:658
+msgid "POS Order"
+msgstr "POS замовлення"
+
+#: setting/locations.php:671
+msgid "Size"
+msgstr "Розмір"
+
+#: setting/locations.php:674
+msgid "Actions"
+msgstr "Дії"
+
+#: setting/locations.php:723
+msgid "Edit"
+msgstr "Редагувати"
+
+#: setting/logs.php:11
+msgid "Logs"
+msgstr "Логи"
+
+#: setting/logs.php:18
+msgid "Plugin"
+msgstr "Плагін"
+
+#: setting/logs.php:22 setting/logs.php:62
+msgid "Log file content"
+msgstr "Вміст лог-файлу"
+
+#: setting/logs.php:29 setting/logs.php:69
+msgid "Log file"
+msgstr "Файл лог-журналу"
+
+#: setting/logs.php:30 setting/logs.php:70
+msgid "Clear log file"
+msgstr "Очистити файл лог-журналу"
+
+#: setting/logs.php:36 setting/logs.php:76
+#, php-format
+msgid "Log file (Size: %s)"
+msgstr "Файл журналу (розмір: %s)"
+
+#: setting/logs.php:49
+msgid "Print"
+msgstr "Друк"
+
+#: setting/logs.php:54
+msgid "Active"
+msgstr "Активний"
+
+#: setting/logs.php:56
+msgid "Save info logs"
+msgstr "Зберегти логи"
+
+#: setting/logs.php:64
+msgid "See print.log"
+msgstr "Дивитись print.log"
+
+#: setting/setting/googleAccess.php:10
+msgid "Google Print Access"
+msgstr "Доступи до Google Print"
+
+#: setting/setting/googleAccess.php:15
+msgid "Setup Google API Credentials"
+msgstr "Налаштування облікових даних Google API"
+
+#: setting/setting/googleAccess.php:16
+msgid "Setup"
+msgstr "Налаштування"
+
+#: setting/setting/googleAccess.php:24
+msgid "Redirect URI"
+msgstr "Переспрямування URI"
+
+#: setting/setting/googleAccess.php:25
+msgid "Copy"
+msgstr "Скопіювати"
+
+#: setting/setting/googleAccess.php:34
+msgid "Client Secret"
+msgstr "Секретний ключ клієнта"
+
+#: setting/setting/googleAccess.php:39
+msgid "Reset"
+msgstr "Скинути"
+
+#: setting/setting/googleAccess.php:40 setting/setting/googleAccess.php:48
+msgid "Are you sure?"
+msgstr "Ви впевнені?"
+
+#: setting/setting/googleAccess.php:47
+msgid "Logout"
+msgstr "Кінець сеансу Google Print"
+
+#: setting/setting/googleAccess.php:54
+msgid "Login"
+msgstr "Авторизація Google Print"
+
+#: setting/setting/googleAccess.php:55
+msgid "Please provide access to Google Cloud Print."
+msgstr "Будь ласка, надайте доступ до служби Google Cloud Print."
+
+#: setting/setting/userRoles.php:10
+msgid "Location User Roles"
+msgstr "Фільтр користувачів по типу для розташувань"
+
+#: setting/setting/userRoles.php:11
+msgid "Select Roles for Location Mapping to Users"
+msgstr ""
+
+#: setting/setting/userRoles.php:22
+msgid "Selected Roles"
+msgstr "Вибрані типи користувачів"
+
+#: templates/customer-html.php:27 templates/customer-plain.php:10
+#: templates/details-plain.php:7 templates/order-html.php:23
+#: templates/order-plain.php:7
+msgid "Order Number"
+msgstr "Номер замовлення"
+
+#: templates/customer-html.php:28 templates/customer-plain.php:11
+#: templates/details-html.php:20 templates/details-plain.php:8
+#: templates/order-html.php:24 templates/order-plain.php:8
+msgid "Date"
+msgstr "Дата"
+
+#: templates/customer-html.php:29 templates/customer-html.php:57
+#: templates/customer-html.php:80 templates/customer-plain.php:12
+#: templates/customer-plain.php:39 templates/details-html.php:30
+#: templates/details-html.php:53 templates/details-plain.php:31
+msgid "Total"
+msgstr "Разом"
+
+#: templates/customer-html.php:30 templates/customer-html.php:76
+#: templates/customer-plain.php:13 templates/customer-plain.php:38
+#: templates/details-html.php:49 templates/details-plain.php:30
+msgid "Payment Method"
+msgstr "Спосіб оплати"
+
+#: templates/customer-html.php:35 templates/order-html.php:29
+msgid "Time ordered"
+msgstr "Час замовлення"
+
+#: templates/customer-html.php:56 templates/details-html.php:29
+#: templates/order-html.php:45
+msgid "Product"
+msgstr "Товар"
+
+#: templates/customer-html.php:62 templates/customer-plain.php:33
+#: templates/details-html.php:35 templates/details-plain.php:25
+msgid "Subtotal"
+msgstr "Підсумок"
+
+#: templates/customer-html.php:67 templates/customer-plain.php:35
+#: templates/details-html.php:40 templates/details-plain.php:27
+msgid "Shipping"
+msgstr "Доставка"
+
+#: templates/customer-html.php:72 templates/customer-plain.php:37
+#: templates/details-html.php:45 templates/details-plain.php:29
+msgid "Tax"
+msgstr "Податок"
+
+#: templates/customer-html.php:85
+msgid "Add Tip Amount"
+msgstr "Додаткова суму на чай"
+
+#: templates/customer-html.php:91
+msgid "Amount Collected"
+msgstr "Зібрана сума"
+
+#: templates/customer-html.php:122 templates/customer-plain.php:42
+#: templates/details-html.php:83 templates/details-plain.php:34
+#: templates/order-html.php:73 templates/order-plain.php:27
+msgid "Customer Details"
+msgstr "Деталі про клієнта"
+
+#: templates/customer-html.php:129 templates/customer-plain.php:44
+msgid "Name"
+msgstr "Ім'я"
+
+#: templates/customer-html.php:135 templates/customer-plain.php:45
+msgid "Telephone"
+msgstr "Номер телефону"
+
+#: templates/customer-html.php:140 templates/customer-plain.php:46
+msgid "Email"
+msgstr "Email"
+
+#: templates/customer-html.php:150 templates/customer-plain.php:49
+#: templates/details-html.php:128 templates/details-plain.php:63
+#: templates/order-html.php:118 templates/order-plain.php:56
+msgid "Order Notes"
+msgstr "Примітка до замовлення"
+
+#: templates/customer-html.php:163 templates/customer-plain.php:52
+#: templates/details-html.php:106 templates/details-plain.php:51
+#: templates/order-html.php:96 templates/order-plain.php:44
+msgid "Shipping method"
+msgstr "Метод доставки"
+
+#: templates/customer-plain.php:14 templates/order-plain.php:9
+msgid "Time Ordered"
+msgstr "Час замовлення"
+
+#: templates/customer-plain.php:16
+msgid "Order Information"
+msgstr "Відомості про замовлення"
+
+#: templates/details-html.php:18
+#, php-format
+msgid "Order #%s"
+msgstr "Замовлення #%s"
+
+#: templates/details-html.php:21
+msgid "Time"
+msgstr "Час"
+
+#: templates/details-html.php:90 templates/details-plain.php:36
+#: templates/order-html.php:80 templates/order-plain.php:29
+msgid "Billing address"
+msgstr "Платіжна адреса"
+
+#: templates/details-html.php:94 templates/details-plain.php:41
+#: templates/order-html.php:84 templates/order-plain.php:34
+msgid "N/A"
+msgstr "Н/Д"
+
+#: templates/details-html.php:116 templates/details-plain.php:55
+#: templates/order-html.php:106 templates/order-plain.php:48
+msgid "Shipping address"
+msgstr "Адреса доставки"
+
+#. Plugin Name of the plugin/theme
+msgid "Print Google Cloud Print GCP WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.bizswoop.com/wp/print"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Easily Add Support for Printing WooCommerce Orders with Google Cloud Print"
+msgstr ""
+"Легко додати підтримку для друку WooCommerce замовлень з Google Cloud Print"
+
+#. Author of the plugin/theme
+msgid "BizSwoop a CPF Concepts, LLC Brand"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.bizswoop.com"
+msgstr ""

@@ -1,0 +1,94 @@
+.addons {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: -20px;
+	margin-left: -20px;
+}
+
+.addon {
+	display: flex;
+	flex-flow: wrap column;
+	width: 250px;
+	margin: 20px;
+	background: #fff;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+.addon h1 {
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	line-height: 1;
+	padding: 20px;
+	margin: 0;
+	background: #fafafa;
+	border-bottom: 1px solid #efefef;
+}
+
+.addon p {
+	margin: 0;
+	flex-grow: 1;
+	padding: 15px;
+}
+
+.addon footer {
+	padding: 15px;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	line-height: 1;
+	flex-flow: wrap row;
+	justify-content: space-between;
+}
+
+.addon footer > * {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.addon footer > *:first-child {
+	justify-content: flex-start;
+}
+
+.addon footer > *:last-child {
+	justify-content: flex-end;
+}
+
+.addon footer.state {
+	align-self: flex-start;
+}
+
+.addon footer .active:before {
+	content: "";
+	display: inline-block;
+	background: green;
+	border-radius: 50%;
+	width: 1em;
+	height: 1em;
+	margin-right: 0.5em;
+	vertical-align: bottom;
+}
+
+.addon footer .enable:before {
+	content: "";
+	display: inline-block;
+	background: blue;
+	border-radius: 50%;
+	width: 1em;
+	height: 1em;
+	margin-right: 0.5em;
+	vertical-align: bottom;
+}
+
+.addon footer .info {
+	text-align: right;
+}
+
+.addon footer .buy {
+	background: #f1f1f1;
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	margin: -0.5rem;
+	text-decoration: none;
+}
